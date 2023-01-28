@@ -24,13 +24,13 @@ CREATE TABLE IF NOT EXISTS users (
  ''')
 
 def menu():
-    print('-=-'* 10)
+   print("-*-" * 10)
     print('I: INSERIR NOVA SENHA:')
     print('L: LISTAR SERVIÇOS SALVOS:')
     print('R: RECUPERAR UM SENHA:')
     print('D: DELETAR OS SERVIÇOS:')
     print('S: SAIR')
-    print('-=-' * 10)
+    print("-*-" * 10)
 
 def get_password(service):
     cursor.execute(f'''
